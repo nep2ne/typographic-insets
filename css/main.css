@@ -87,30 +87,6 @@ footer {
 */
 
 /* Write your CSS here */
-.wrapper > p:first-child::first-letter {
-  color: #f2f2f2;
-  background-color: #666;
-  border-top: 3px solid #333;
-  border-bottom: 3px solid #333;
-  float: left;
-  font-size: 5rem;
-  font-style: normal;
-  margin: 0 .2em 0 0;
-  padding: .2em .2em;
-}
-
-figure {
-  width: 300px;
-  float: right;
-  border-top: 3px solid #333;
-  border-bottom: 3px solid #333;
-  padding: 6px 0;
-}
-
-figcaption {
-  font-size: .875rem;
-  font-style: italic;
-}
 
 blockquote {
   width: 300px;
@@ -119,10 +95,39 @@ blockquote {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   font-size: 1.5rem;
-  margin: 0 .4em 0 -8em;
+  line-height: 1.25;
+  margin: 0 .4em 0 -6em;
   padding: .4em .2em;
 }
 
 blockquote p {
   text-align: right;
+}
+
+.wrapper > p:first-child::first-letter {
+  color: #f2f2f2;
+  background-color: #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  float: left;
+  font-size: 5rem;
+  font-style: normal;
+  margin: 0 .15em 0 -.5em;
+  padding: .15em .18em .18em;
+}
+
+figure {
+  width: 300px;
+  float: right;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin-top: 0;
+  margin-right: -8em;
+  margin-left: 1em;
+  padding: 6px 0;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
 }
