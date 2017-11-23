@@ -87,10 +87,16 @@ footer {
 */
 
 /* Write your CSS here */
-p::first-letter {
+.wrapper > p:first-child::first-letter {
   color: #f2f2f2;
   background-color: #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
   float: left;
+  font-size: 5rem;
+  font-style: normal;
+  margin: 0 .2em 0 0;
+  padding: .2em .2em;
 }
 
 figure {
@@ -113,7 +119,7 @@ blockquote {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   font-size: 1.5rem;
-  margin: 0 .4em 0 0;
+  margin: 0 .4em 0 -8em;
   padding: .4em .2em;
 }
 
