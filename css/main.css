@@ -100,10 +100,6 @@ blockquote {
   padding: .4em .2em;
 }
 
-blockquote p {
-  text-align: right;
-}
-
 .wrapper > p:first-child::first-letter {
   color: #f2f2f2;
   background-color: #666;
